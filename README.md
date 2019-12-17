@@ -6,7 +6,7 @@ To run the app the system must have docker installed.
 Pull down the git repo  
 
 ``` bash 
-git pull https://github.com/Jacob-warnes/capstoneProject.git
+git pull https://github.com/50poff/CapstoneProject.git
 ```
 Inside the docker_scripts\app  directory create a public and private key named id_rsa and id_rsa.pub
 ```bash
@@ -14,7 +14,7 @@ Inside the docker_scripts\app  directory create a public and private key named i
 ```
 Add the public key to the git repo at this url
 ```
-https://github.com/Jacob-warnes/capstoneProject/settings/keys
+https://github.com/50poff/CapstoneProject/settings/keys
 ```
 
 At the root level run docker-compose up -d to start the application.
