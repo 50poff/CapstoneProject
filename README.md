@@ -1,5 +1,5 @@
-# DaiHire app
-An application for scheduling interviews at Daitan 
+# Hireing app
+An application for scheduling interviews 
 
 ## Running the app
 To run the app the system must have docker installed. 
