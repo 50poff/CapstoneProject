@@ -1,0 +1,28 @@
+version: "3"
+services:
+  web:
+    depends_on:
+      - db
+    build:
+      context: .\docker_scripts\app
+      args:
+        - PEM_PASS=pass
+        - API_URL=https://localhost:3000/api/v1
+        - APP_URL=https://localhost:3000
+        - PORT=3000
+        - DB_URL=db
+        - MYSQL_USER=daihire
+        - MYSQL_PASSWORD=daihire
+    ports:
+      - "3000:3000"
+    links:
+      - db
+  db:
+    build: 
+      context: .\docker_scripts\db
+    environment:
+      - MYSQL_ROOT_PASSWORD=pass
+      - MYSQL_USER=daihire
+      - MYSQL_PASSWORD=daihire
+    ports: 
+      - "3306:3306"

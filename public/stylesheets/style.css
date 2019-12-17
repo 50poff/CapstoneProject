@@ -1,0 +1,22 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #dfdfef;
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+.button{ 
+  background-color: #000060;
+  border-radius: 8px;
+
+}
+
+.img{
+  border: "0"; 
+  width: "300"; 
+  height: "300" 
+}
