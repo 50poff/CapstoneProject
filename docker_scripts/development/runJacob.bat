@@ -1,0 +1,1 @@
+docker run -p 443:3000 -d -v ~\Documents\Camosun\Capstone\development:/DaiHire --name DaiHire team_bold_capstone   /bin/sh -c "service mysql start; while true; do sleep 24h;done"

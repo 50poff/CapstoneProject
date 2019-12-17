@@ -1,0 +1,1 @@
+ openssl req -newkey rsa:2048 -x509 -days 3650 -utf8 -keyout key.pem -out cert.pem
