@@ -30,7 +30,7 @@
 		"webpack-cli": "^3.3.2"
 	},
 	"dependencies": {
-		"acorn": "^6.1.1",
+		"acorn": "^6.4.1",
 		"bcryptjs": "^2.4.3",
 		"cookie-parser": "^1.4.4",
 		"debug": "^4.1.1",
